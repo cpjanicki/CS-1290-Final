@@ -39,6 +39,8 @@ Therefore, the following steps are used to solve this problem.
 1) Sort pairs by the first coordinate, and use a new array variable(dp[i]) where the length of the longest chain ending at the 2D array of the pairs is stored (pairs[i]. 
 2) Then run a modified pairs process where we compare the second element of already finalized pairs with the first element of the new pairs being constructed
 
+*Since it is a list, I used Array list to solve this problem instead of HashMap. 
+
 ```java
  public int findLongestChain(int[][] pairs) {
         Arrays.sort(pairs, (a, b) -> a[0] - b[0]);
