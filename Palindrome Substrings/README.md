@@ -19,14 +19,14 @@ The three different palindromic strings are: "a" , "b" , "c"
 ````
 
 ## Example 2
-`
+````
 INPUT: "aaa"
 OUTPUT: 6 
 
 EXPLANATION:
 The output is 6 because these are the 6 different plaindromic strings
 "a" , "a" , "a", "aa" , "aa" , "aaa" 
-`
+````
 
 ## Solution 
 N = length of the string
